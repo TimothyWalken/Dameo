@@ -1,0 +1,32 @@
+/*
+-creer une classe pile
+-finir la fonction de deplacement
+-la lecture par decoupe du string de la pile de backtrack
+
+pile* blabla (int x, int y ,color col, char impo)//peut etre remplacer impo par une matrice avec les coordonnées impossible a survoler
+{
+	pile u,d,l,r=new pile;//creer les piles pour les sous arbres
+	//exemple de mouvement avec le haut
+	if (upeat(x,y-1),impo !="z")// je mettrai bien une lecture de la matrice de coordonnées dans upeat(x,y) genre mais je sais pas comment les lier ensemble pour pas se tromper
+	{
+		u=blabla(x,y-2,col,"d");// on lance le backtrack pour le sous arbre en indiquant le prochain imput impossible (n'empeche pas de tourner en rond, d'ou l'idee du tableau)
+		u.sti+="z";//on ajout l'input à la suite du string pour la lecture
+		u.tete+=1;//on informe le nombre entier d'input qu'il faudra lire
+	}
+	if(noup())
+	{
+		return une liste vide;//pour lancer la remontada il faut retourner une liste vide puisqu'il n'y a pas d'input
+	}
+	return (max(u,d,l,r));
+}
+
+void lecture (int x, int y, color col,//je sais pas encore)
+{
+	//lancer probablement l'appel du recurssif d'ici
+	pile* r=blabla(x,y,col,"")
+	for (int i = r.tete; i >=0; i--)
+	{
+		lecture(x,y,r.sti[i]);
+	}
+}
+*/
