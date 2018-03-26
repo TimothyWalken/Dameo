@@ -30,3 +30,13 @@ void lecture (int x, int y, color col,//je sais pas encore)
 	}
 }
 */
+
+-prevoir le cas ou quelqu'un entre plus que l-1
+
+-retirer le 8 a l'affichage
+
+-obliger l'ia à manger 
+
+-l'ia avance les pions les plus proche de l'origine, si ceux si sont bloqués, ca tourne en boucle
+
+-faire une liste de coup possible plutot que la structure d'origine 
